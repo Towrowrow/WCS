@@ -1,0 +1,53 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+wilder@wilder-ThinkPad-T430:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+wilder@wilder-ThinkPad-T430:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T430:~$ cd music
+bash: cd: music: No such file or directory
+wilder@wilder-ThinkPad-T430:~$ cd Music
+wilder@wilder-ThinkPad-T430:~/Music$ pwd
+/home/wilder/Music
+wilder@wilder-ThinkPad-T430:~/Music$ cd ..
+wilder@wilder-ThinkPad-T430:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T430:~$ cd/home/wilder
+bash: cd/home/wilder: No such file or directory
+wilder@wilder-ThinkPad-T430:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T430:~$ cd
+wilder@wilder-ThinkPad-T430:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T430:~$ cd Pictures
+wilder@wilder-ThinkPad-T430:~/Pictures$ pwd
+/home/wilder/Pictures
+wilder@wilder-ThinkPad-T430:~/Pictures$ cd
+wilder@wilder-ThinkPad-T430:~$ pwd
+/home/wilder
+wilder@wilder-ThinkPad-T430:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+wilder@wilder-ThinkPad-T430:~$ cd ~ Music
+bash: cd: too many arguments
+wilder@wilder-ThinkPad-T430:~$ cd ~ Music
+bash: cd: too many arguments
+wilder@wilder-ThinkPad-T430:~$ cd Documents
+wilder@wilder-ThinkPad-T430:~/Documents$ pws
+
+Command 'pws' not found, did you mean:
+
+  command 'aws' from snap aws-cli (1.15.71)
+  command 'psw' from deb wise
+  command 'pts' from deb openafs-client
+  command 'ps' from deb procps
+  command 'aws' from deb awscli
+  command 'pwd' from deb coreutils
+  command 'pcs' from deb pcs
+  command 'pvs' from deb lvm2
+  command 'pms' from deb pms
+  command 'rpws' from deb ratpoison
+
+See 'snap info <snapname>' for additional versions.
+
+wilder@wilder-ThinkPad-T430:~/Documents$ 
